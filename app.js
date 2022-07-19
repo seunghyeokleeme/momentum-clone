@@ -1,3 +1,4 @@
-const amIFat = null;
-let something;
-console.log(something);
+const toBuy = ["potato", "tomato", "pizza"];
+toBuy.push("apple");
+// To-do list : Array.push()
+console.log(toBuy);
