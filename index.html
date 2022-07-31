@@ -1,1 +1,66 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__column">
+        <span>To Do</span>
+      </div>
+      <div class="header__column">
+        <form class="search">
+          <div class="search__column">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="search__column">
+            <input type="text" />
+            <i class="hidden fas fa-times"></i>
+          </div>
+        </form>
+      </div>
+      <div class="header__column">
+        <i class="fas fa-question"></i>
+      </div>
+    </header>
+    <div class="login-page hidden">
+      <form id="login-form">
+        <h1>로그인</h1>
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <input type="submit" value="Log In" />
+      </form>
+    </div>
+    <header class="welcome-header">
+      <h1 id="greeting" class="hidden"></h1>
+      <div id="weather" class="hidden"><span></span><span></span></div>
+    </header>
+    <h2 id="clock">00:00</h2>
+    <div class="main">
+      <div id="quote"><span></span><span></span></div>
+      <form id="todo-form" class="to-do">
+        <span>❌</span>
+        <input type="text" placeholder="작업 추가" required />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/qutoes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
