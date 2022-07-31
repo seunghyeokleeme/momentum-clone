@@ -1,5 +1,13 @@
 @import "reset.css";
+@import "header.css";
+@import "search.css";
 
+body {
+  font-family: SegoeUI-SemiBold-final, "Segoe UI Semibold",
+    SegoeUI-Regular-final, "Segoe UI", "Segoe UI Web (West European)", Segoe,
+    -apple-system, "system-ui", Roboto, "Helvetica Neue", Tahoma, Helvetica,
+    Arial, sans-serif;
+}
 .hidden {
   display: none;
 }

@@ -1,0 +1,12 @@
+.header {
+  padding: 7px 14px;
+  background-color: #0078d7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__column {
+  font-size: 16px;
+  color: white;
+}
