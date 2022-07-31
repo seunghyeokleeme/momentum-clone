@@ -49,3 +49,8 @@ body {
   z-index: -1;
   animation: fadeIn 0.5s linear;
 }
+
+#quote {
+  margin-left: 20px;
+  font-style: italic;
+}
