@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "header.css";
 @import "search.css";
+@import "greeting.css";
 
 body {
   font-family: SegoeUI-SemiBold-final, "Segoe UI Semibold",
