@@ -44,11 +44,14 @@
       <div id="weather" class="hidden"><span></span><span></span></div>
     </header>
     <h2 id="clock">00:00</h2>
-    <div id="quote"><span></span><span></span></div>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
+    <div class="main">
+      <div id="quote"><span></span><span></span></div>
+      <form id="todo-form" class="to-do">
+        <span>❌</span>
+        <input type="text" placeholder="작업 추가" required />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

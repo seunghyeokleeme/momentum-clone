@@ -23,7 +23,7 @@ body {
 
 #clock {
   margin: 10px 25px;
-  font-size: 12px;
+  font-size: 15px;
   color: #797775;
 }
 
@@ -42,15 +42,49 @@ body {
 
 .bgImage {
   position: absolute;
-  top: 120px;
+  top: 125px;
   left: 0;
   width: 100%;
   height: 80vh;
-  z-index: -1;
+  z-index: -2;
   animation: fadeIn 0.5s linear;
 }
 
+.main {
+  margin: 0px 20px;
+}
+
 #quote {
-  margin-left: 20px;
   font-style: italic;
+}
+
+.to-do {
+  margin-bottom: 10px;
+  padding: 20px 25px;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 16px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#todo-form {
+  margin-top: 30px;
+  position: relative;
+}
+
+#todo-form span {
+  position: absolute;
+}
+
+#todo-form input {
+  padding-left: 25px;
+  width: 95%;
+  border: none;
+  font-weight: bold;
+}
+
+.delete-btn {
+  border: none;
+  margin-right: 10px;
+  background-color: inherit;
 }
