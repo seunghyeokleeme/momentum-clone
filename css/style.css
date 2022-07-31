@@ -8,7 +8,23 @@ body {
     SegoeUI-Regular-final, "Segoe UI", "Segoe UI Web (West European)", Segoe,
     -apple-system, "system-ui", Roboto, "Helvetica Neue", Tahoma, Helvetica,
     Arial, sans-serif;
+  background-color: #f3f2f1;
 }
 .hidden {
   display: none;
+}
+
+.welcome-header {
+  margin: 30px 20px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+#clock {
+  margin: 10px 25px;
+  font-size: 12px;
+  color: #797775;
 }
