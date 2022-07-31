@@ -27,18 +27,21 @@
         <i class="fas fa-question"></i>
       </div>
     </header>
-    <form id="login-form" class="hidden">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
-      <input type="submit" value="Log In" />
-    </form>
+    <div class="login-page hidden">
+      <form id="login-form">
+        <h1>로그인</h1>
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <input type="submit" value="Log In" />
+      </form>
+    </div>
     <header class="welcome-header">
       <h1 id="greeting" class="hidden"></h1>
-      <div id="weather"><span></span><span></span></div>
+      <div id="weather" class="hidden"><span></span><span></span></div>
     </header>
 
     <h2 id="clock">00:00</h2>

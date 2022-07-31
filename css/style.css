@@ -2,6 +2,7 @@
 @import "header.css";
 @import "search.css";
 @import "greeting.css";
+@import "login.css";
 
 body {
   font-family: SegoeUI-SemiBold-final, "Segoe UI Semibold",
@@ -9,9 +10,6 @@ body {
     -apple-system, "system-ui", Roboto, "Helvetica Neue", Tahoma, Helvetica,
     Arial, sans-serif;
   background-color: #f3f2f1;
-}
-.hidden {
-  display: none;
 }
 
 .welcome-header {
@@ -27,4 +25,8 @@ body {
   margin: 10px 25px;
   font-size: 12px;
   color: #797775;
+}
+
+.hidden {
+  display: none;
 }
